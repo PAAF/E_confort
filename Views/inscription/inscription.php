@@ -17,7 +17,7 @@
 
 <div class="col-lg-offset-3 col-lg-6">
 		<form class="form-login" id="formAdmin" action="?section=inscription" method="post">
-						<h3>Enregistrement d'un nouveau Client</h3><br>
+						<h3>Enregistrement d''un nouveau Client</h3><br>
 						<?php
 							if (isset($erreur)) echo '<span style="color:red; font-size:1.1em;">'.$erreur.'</span><br><br>';
 						?>
