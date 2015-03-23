@@ -21,3 +21,8 @@ if(isset($_GET['section']) AND $_GET['section'] == 'detailProduit')
 {
 	include_once('Controler/magasin/detailProduit.php');
 }
+
+if(isset($_GET['section']) AND $_GET['section'] == 'achat')
+{
+	include_once('Controler/magasin/achat.php');
+}

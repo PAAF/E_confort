@@ -29,14 +29,14 @@
 	  
 	  
 	  <div class="col-lg-4 detailProdStyle"  >
-	  <form method="post" action="<?php echo "commande.php?id=".$produit[0]['id'] ?>">
+	  <form method="post" action="<?php echo "?section=achat&id=".$produit[0]['id'] ?>">
 	  
 	  
 	  <div class="col-lg-12 titredetailProd" style="min-height:40vh;">
 	  <center>
 	  <span class="stylePrix"><?php echo nl2br(sprintf('%.2f',$produit[0]['prix']))." €"; ?></span><br><br>
 	  
-	  <span class="txt2" >Choisir Quantité : </span><select name="list" id="list">
+	  <span class="txt2" >Choisir Quantité : </span><select name="qte" id="qte">
 		<option value="1">1</option>
 		<option value="2">2</option>
 		<option value="3">3</option>
