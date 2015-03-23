@@ -1,0 +1,40 @@
+/* STYLE pour detail Produit */
+	.titredetailProd {
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:175%;
+	text-transform:uppercase;
+	color:black;
+	font-weight: bold;
+	}
+
+	.titredescrProd {
+		margin-top:15px;
+		margin-bottom:15px;
+		font-size:115%;
+		text-transform:uppercase;
+		color:black;
+		font-weight: bold;
+		background:rgba(229,215,216,1);
+		padding:5px 5px 5px 7px;
+	}
+
+	.detailProdDescr {
+		margin-bottom:15px;
+	}
+
+
+	.stylePrix {
+		color:#404040;
+		font-size:175%;
+		font-weight:700;
+	}
+	
+	.txt2 {
+		margin-top:15px;
+		margin-bottom:15px;
+		font-size:60%;
+		text-transform:uppercase;
+		color:black;
+		font-weight: bold;
+	}
