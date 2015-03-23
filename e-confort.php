@@ -11,3 +11,8 @@ if(isset($_GET['section']) AND $_GET['section'] == 'inscription')
 {
 	include_once('Controler/inscription/inscription.php');
 }
+
+if(isset($_GET['section']) AND $_GET['section'] == 'magasin')
+{
+	include_once('Controler/magasin/magasin.php');
+}
