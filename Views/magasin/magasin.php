@@ -14,18 +14,18 @@
 					<table class="table table-hover table-bordered" >
 						<thead>
 							<tr>
-								<th data-field="name">Nom</th>
-								<th data-field="price">Prix</th>
-								<th data-field="image">Photo</th>
+								<th class="titreCol" data-field="name">Nom</th>
+								<th class="titreCol" data-field="price">Prix</th>
+								<th class="titreCol" data-field="image">Photo <?php echo $produitPage[0]['nom']; ?></th>
 							</tr>
 							<tbody>
 							<?php 
 							
-							foreach($produit as $p){
+							foreach($produitPage as $p){
 							?>
 							<tr>
-							<td><?php echo nl2br($p['nom']); ?></td>
-							<td><?php echo nl2br($p['prix']); ?></td>
+							<td><br><br><br><?php echo nl2br($p['nom']); ?></td>
+							<td><br><br><br><?php echo nl2br($p['prix'])."€"; ?></td>
 							<td><center><a href="<?php echo "?section=detailProduit&id=".$p['id']?>"> <img  src="<?php echo "images/".nl2br($p['id']).".jpg"; ?>"></img></a></center></td>
 							</tr>
 							<?php
@@ -37,7 +37,16 @@
 						</thead>
 					</table>
 				</div>
-
+			<?php 
+				echo $foot1;
+				
+				foreach($foot as $f){
+					echo $f;
+				}
+			
+				echo $foot2; 
+				
+			?>
 			  </div>
 		</div>
 	  

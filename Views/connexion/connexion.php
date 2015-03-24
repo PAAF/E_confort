@@ -6,7 +6,7 @@
         
     <body>
 
-<div class="row">
+	<div class="row">
 	  <div class="col-lg-12" >
 
 		<br><br><br><br><br><br><br>
@@ -16,10 +16,10 @@
 		<form class="form-login" id="formAdmin" action="?section=connexion" method="post">
 						<h4>Connexion Client</h4><br>
 						
-						<input type="text" name="login" class="form-control input-sm chat-input" placeholder="username">
+						<input type="text" name="login" class="form-control input-md chat-input" placeholder="username">
 						<br /><br />
 						
-						<input type="password" name="pass" class="form-control input-sm chat-input" placeholder="password">
+						<input type="password" name="pass" class="form-control input-md chat-input" placeholder="password">
 						<br /><br />
 						
 						<?php
@@ -36,7 +36,7 @@
 		<form class="form-login" id="formAdmin" action="?section=connexion" method="post">	
 			<h4>Inscription nouveau Client</h4><br>
 						
-			<input type="text" name="mail" class="form-control input-sm chat-input" placeholder="email">
+			<input type="text" name="mail" class="form-control input-md chat-input" placeholder="email">
 			<br /><br /></br>
 			<?php
 				if (isset($erreurMail)) echo '<span style="color:red; font-size:1.1em;">'.$erreurMail.'</span>';
@@ -50,7 +50,7 @@
 		
 	  
 	  </div>
-	  </div>
+	</div>
 	  
 	</body>
 	

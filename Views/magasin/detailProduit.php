@@ -10,8 +10,8 @@
 		
 	
 	<br><br><br><br><br><br><br><br><br><br><br><br>
-		
-	  <div class="col-lg-offset-1 col-lg-10" >
+	<div class="row">
+	  <div class="col-lg-offset-1 col-lg-10 backgroundDetailProduit" >
 	  
 	  <div class="col-lg-2 detailProdStyle" >
 	  <div class="col-lg-12 titredetailProd" ><?php echo $produit[0]['nom'] ?></div>
@@ -47,7 +47,7 @@
 		<option value="8">8</option>
 		<option value="9">9</option>
 		</select>
-	  <br><br>
+	  <br><br><br><br><br>
 		</center>
 		
 	  <div class="col-lg-12 detailProdDescr"><input id="cmd" name="cmd" type="submit" value="Commmander" class="btn btn-block btn-lg btn-success"></div>
@@ -58,6 +58,7 @@
 	  
 	  </div>
 	  </div>
+	</div>
 	  
 	</body>
 	

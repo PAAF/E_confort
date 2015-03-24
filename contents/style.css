@@ -39,3 +39,52 @@
 		color:black;
 		font-weight: bold;
 	}
+	
+	
+	.inscrForm {
+		border-left: solid 1px rgba(0,0,0,0.2);
+	}
+	
+	.chat-input {
+		width:75%;
+	}
+	
+	.titreInscr {
+		background-color:rgba(0,0,0,0.1);
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	.btnInscr {
+		width:30%;
+	}
+	
+	.titreInput {
+		font-size:130%;
+	}
+	
+	.titreCol {
+		font-size:125%;
+	}
+	
+	.backgroundDetailProduit {
+		background-color:rgba(0,0,0,0.1);
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	
+	.table-responsive{
+		background-color:rgba(0,0,0,0.1);
+		border:solid 1px rgba(0,0,0,0.7);
+	}
+	
+	.table-bordered th{
+		background-color:rgba(0,0,0,0.1);
+		text-align:center;
+	}
+	
+	td {
+		text-align:center;
+		font-size:115%;
+	}
+	
