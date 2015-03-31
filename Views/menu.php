@@ -10,19 +10,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">E-Confort</a>
+                <a class="navbar-brand" href="#" style="padding-top:2px; padding-bottom:2px;"><img src="../contents/img/logo.png"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="float:right;">
                     <li>
-                        <a href="index.php?p=reception">Réception</a>
+                        <a style="color:orange;" href="index.php?p=reception">Se Connecter</a>
                     </li>
                     <li>
-                        <a href="index.php?p=consultation">Consultation</a>
-                    </li>
-                    <li>
-                        <a href="index.php?p=gestion">Gestion</a>
+                        <a class="btn btn-primary" style="padding-top:3px; padding-bottom:3px; top:12px; color:white;" href="index.php?p=consultation">S'enregistrer</a>
                     </li>
                 </ul>
             </div>
