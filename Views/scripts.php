@@ -1,4 +1,5 @@
 <link href='../contents/bootstrap.min.css' rel="stylesheet">
+<link href='../contents/business-frontpage.css' rel="stylesheet">
 <link href='../contents/datepicker.css' rel="stylesheet">
 <link href='../contents/style.css' rel="stylesheet">
 <link href='../contents/font-awesome.css' rel="stylesheet">

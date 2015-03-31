@@ -1,7 +1,33 @@
 <div id="menu">
-	<ul>
-		<li><a href="index.php?p=reception" class="noStyleLink">Item 1</a></li>
-		<li><a href="index.php?p=consultation" class="noStyleLink">Item 2</a></li>
-		<li><a href="index.php?p=gestion" class="noStyleLink">Item 3</a></li>
-	</ul>
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">E-Confort</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.php?p=reception">Réception</a>
+                    </li>
+                    <li>
+                        <a href="index.php?p=consultation">Consultation</a>
+                    </li>
+                    <li>
+                        <a href="index.php?p=gestion">Gestion</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 </div>
