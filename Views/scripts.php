@@ -5,6 +5,7 @@
 <link href='../contents/font-awesome.css' rel="stylesheet">
 <link href='../contents/jquery-ui.css' rel="stylesheet">
 <link href='../contents/ref.css' rel="stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="../scripts/jquery-ui.min.js"></script>
 <script src="../scripts/parsley.min.js"></script>
