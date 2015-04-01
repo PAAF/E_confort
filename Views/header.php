@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>Reception commande fournisseur</title>
+    <title>E-Confort</title>
     <!-- Inclusion des CSS -->
 
 	
