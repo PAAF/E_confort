@@ -1,75 +1,101 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
-    
-	
-	<?php include_once('Views/header.php'); ?>
-        
-    <body>
+</br>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12" >
 
-<div class="row">
-	  <div class="col-lg-12" >
+			<form class="form-horizontal">
+				<fieldset>
 
-		<br><br><br><br><br><br><br>
-		<center>
+				<!-- Form Name -->
+				<legend>S'enregistrer</legend>
 
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="email">E-mail</label>  
+				  <div class="col-md-5">
+				  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
 
-<div class="col-lg-offset-3 col-lg-6">
-		<form class="form-login" id="formAdmin" action="?section=inscription" method="post">
-						<h3 class="titreInscr" >Enregistrement d'un nouveau Client</h3><br>
-						<?php
-							if (isset($erreur)) echo '<span style="color:red; font-size:1.1em;">'.$erreur.'</span><br><br>';
-						?>
-						<br>
-						
-						<span class="titreInput">Login* :</span> <input value="<?php echo $login; ?>" class="form-control input-sm chat-input" type="text" name="login" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Mot de passe* :</span> <input class="form-control input-sm chat-input" type="password" name="pass" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Confirmation du mot de passe* :</span> <input  class="form-control input-sm chat-input" type="password" name="pass_confirm" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Nom* :</span> <input value="<?php echo $nom; ?>" class="form-control input-sm chat-input" type="text" name="nom" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Prenom :</span> <input value="<?php echo $nom2; ?>" class="form-control input-sm chat-input" type="text" name="nom2" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Adresse* :</span> <input value="<?php echo $adr; ?>" class="form-control input-sm chat-input" type="text" name="adr" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Ville* :</span> <input value="<?php echo $ville; ?>" class="form-control input-sm chat-input" type="text" name="ville" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Code postal* :</span> <input value="<?php echo $code_postal; ?>" class="form-control input-sm chat-input" type="text" name="code_postal" size="20" maxlength="20">
-						<br>
-						
-						<span class="titreInput">Tel :</span> <input value="<?php echo $tel; ?>" class="form-control input-sm chat-input" type="text" name="tel" size="20" maxlength="30">
-						<br>
-						
-						<span class="titreInput">Email* :</span> <input class="form-control input-sm chat-input" value="<?php echo $_COOKIE['mail'];?>" type="text" name="mail" size="20" maxlength="80" readonly="true">
-						<br>
-						
-						<br>
-						<input class="btn-lg btn-success btnInscr" type="submit" name="inscription" value="Inscription">
-						</form>
-						<br>
-						* : Champs obligatoire.
-						
-						</br></br></br></br></br></br></br></br></br></br>
-		
+				<!-- Password input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="mdp">Mot de Passe</label>
+				  <div class="col-md-5">
+					<input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Password input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="cmdp">Confirmation Mot de Passe</label>
+				  <div class="col-md-5">
+					<input id="cmdp" name="cmdp" type="password" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="nom">Nom</label>  
+				  <div class="col-md-5">
+				  <input id="nom" name="nom" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="prenom">Prénom</label>  
+				  <div class="col-md-5">
+				  <input id="prenom" name="prenom" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="adresse">Adresse</label>  
+				  <div class="col-md-5">
+				  <input id="adresse" name="adresse" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="cp">Code Postal</label>  
+				  <div class="col-md-5">
+				  <input id="cp" name="cp" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="ville">Ville</label>  
+				  <div class="col-md-5">
+				  <input id="ville" name="ville" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Button (Double) -->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="button1id"></label>
+				  <div class="col-md-8">
+					<button id="button1id" name="button1id" class="btn btn-primary col-md-3" style="margin-right:15px;">Valider</button>
+					<button id="button2id" name="button2id" class="btn btn-danger col-md-2">Annuler</button>
+				  </div>
+				</div>
+
+				</fieldset>
+			</form>
+			
+			<hr>
+			<?php include('footer.php'); ?>
+
 		</div>
-		
-		
-		
-</center>
-		
-	  
-	  </div>
-	  </div>
-	  
-	</body>
-	
-	<script src="Vue/bootstrap/js/bootstrap.min.js"></script>
-</html>
+	</div>
+</div>

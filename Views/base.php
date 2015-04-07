@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="fr">
-
+<?php include('header.php'); ?>
 <body>
     <?php
-        include('header.php');
         include('menu.php');
     ?>
 	<div id="wrapper">
@@ -18,7 +17,8 @@
 				} elseif(!isset($_GET['p'])) {
 					include('acceuil.php');
 				} else {
-					include('error.php');
+					include($_GET['p'].'.php');
+					//include('error.php');
 				}
 			/*}
 			else {
