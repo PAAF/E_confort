@@ -25,7 +25,7 @@
 		
 		</div>
 		<div class="col-lg-4 inscrForm">
-		<form class="form-login" id="formAdmin" action="?section=connexion" method="post">	
+		<form class="form-login" id="formAdmin" action="index.php?p=inscription" method="post">	
 			<h4>Inscription nouveau Client</h4><br>
 						
 			<input type="text" name="mail" class="form-control input-md chat-input" placeholder="E-mail">
