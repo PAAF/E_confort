@@ -9,10 +9,10 @@
 						<h4>Connexion Client</h4><br>
 						
 						<input type="text" name="login" class="form-control input-md chat-input" placeholder="E-mail">
-						<br /><br />
+						<br />
 						
 						<input type="password" name="pass" class="form-control input-md chat-input" placeholder="Mot de Passe">
-						<br /><br />
+						<br />
 						
 						<?php
 							if (isset($erreur)) echo '<span style="color:red; font-size:1.1em;">'.$erreur.'</span><br><br>';
@@ -20,8 +20,11 @@
 
 						<input class="btn btn-primary" id="boutonConnexion" type="submit" name="connexion" value="Connexion">
 						
+						<br />
+						<a href="#" id="pwdmail">Mot de passe oublié?</a>
+						
 		</form>
-		</br></br></br></br></br></br>
+		<br />
 		
 		</div>
 		<div class="col-lg-4 inscrForm">
@@ -29,11 +32,11 @@
 			<h4>Inscription nouveau Client</h4><br>
 						
 			<input type="text" name="mail" class="form-control input-md chat-input" placeholder="E-mail">
-			<br /><br /></br>
+			<br />
 			<?php
 				if (isset($erreurMail)) echo '<span style="color:red; font-size:1.1em;">'.$erreurMail.'</span>';
 			?>
-			</br></br>
+			</br></br></br>
 		
 			<input class="btn btn-success btnInscr" id="boutonInscription" type="submit" name="inscription" value="Inscription">
 		</form>
